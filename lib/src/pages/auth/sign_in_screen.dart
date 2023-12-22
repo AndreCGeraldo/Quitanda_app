@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quitanda_app/src/pages/auth/components/custom_text_field.dart';
+import 'package:quitanda_app/src/pages/common_widgets/custom_text_field.dart';
 import 'package:quitanda_app/src/pages/auth/sign_up_screen.dart';
 import 'package:quitanda_app/src/pages/base/base_screen.dart';
 import 'package:quitanda_app/src/config/custom_colors.dart';
@@ -166,7 +166,7 @@ class SignInScreen extends StatelessWidget {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(18),
                           ),
-                          side: BorderSide(
+                          side: const BorderSide(
                             width: 2,
                             color: Colors.green,
                           ),
